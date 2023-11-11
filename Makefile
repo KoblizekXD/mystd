@@ -1,3 +1,5 @@
+.PRECIOUS: main
+
 main: main.o
 	ld -o main main.o
 	./main
